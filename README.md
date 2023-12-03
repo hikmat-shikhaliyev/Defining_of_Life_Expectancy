@@ -7,10 +7,11 @@ The script begins with data preprocessing steps, including handling missing valu
 
 #### Modeling
 The script then proceeds to model the data using various machine learning algorithms such as Linear Regression, Decision Tree Regression, Random Forest Regression, XGBoost, LightGBM, CatBoost, Support Vector Regression (SVR), and a Stacking model. For each model, the script evaluates the performance using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R2) on both the training and testing datasets.
+#### Catboost Model with Categorical Columns
+The script includes an analysis using the CatBoost Regressor with categorical columns. It demonstrates the impact of including categorical features in the model and compares the results with the previous models.
 
 #### Univariate Analysis
-The script also includes univariate analysis to evaluate the performance of the CatBoost model with categorical columns.
-
+The univariate analysis section explores the impact of individual features on the target variable (life expectancy). It provides insights into how each feature contributes to the predictive power of the model.
 #### Results
 The results of the modeling and univariate analysis are presented in tabular format, showing the performance metrics for each variable and model.
 
